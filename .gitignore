@@ -3,3 +3,5 @@ node_modules/
 
 # JetBrains .idea folder
 .idea
+
+.DS_Store

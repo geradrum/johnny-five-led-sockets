@@ -7,18 +7,16 @@ import { url } from '../config';
     const switchElement = document.getElementById('switch');
     const maskElement = document.getElementById('mask_container');
     const lightElement = document.getElementById('light');
-    let state = false; // Switch state
+    let state = false; // Switch state (true [on]/false [off])
 
     const setLight = (mode) => {
       state = mode === 'toggle' ? !state : mode === 'on';
       if(state) {
         // Turn light on
-        state = true;
         switchElement.classList.add('on');
         lightElement.style.display = 'none';
       } else {
         // Turn light off
-        state = false;
         switchElement.classList.remove('on');
         lightElement.style.display = 'block';
       }
@@ -56,4 +54,5 @@ import { url } from '../config';
       setLight('off');
     });
   }
+
 )();
