@@ -14,7 +14,7 @@
   "author": "geradrum <gera.96@icloud.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "johnny-five": "^0.11.1",
     "socket.io": "^2.0.2",
     "socket.io-client": "^2.0.2"
