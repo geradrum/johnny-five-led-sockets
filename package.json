@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.3",
-    "johnny-five": "^0.11.1",
+    "johnny-five": "^2.1.0",
     "socket.io": "^2.0.2",
     "socket.io-client": "^2.0.2"
   },
