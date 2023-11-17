@@ -5,7 +5,7 @@ const config = require('./config');
 // Connect to the socket server
 const socket = io.connect(config.url);
 
-const board = five.Board();
+const board = new five.Board();
 
 board.on('ready', function() {
 
